@@ -1,0 +1,57 @@
+body,
+html {
+  font-family: sans-serif;
+  height: 1000px;
+}
+.aqua {
+  height: 50%;
+  background-color: #01ffd5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.object-dot {
+  animation: 1.5s Anime1 infinite ease-in-out;
+}
+.dot {
+  background-color: white;
+  margin: 10px;
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 30px;
+}
+@keyframes Anime1 {
+  from {
+    transfrom: none;
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.green {
+  height: 50%;
+  margin: 10px 0px;
+  background-color: #00a164;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bar {
+  height: 40px;
+  width: 10px;
+  margin: 2px;
+  display: inline-block;
+  background-color: white;
+}
+.bar-1 {
+  animation: 1.5s Anime2 infinite ease-in-out;
+}
+@keyframes Anime2 {
+  from {
+    transform: none;
+  }
+  to {
+    transfrom: scaleY(2);
+  }
+}
