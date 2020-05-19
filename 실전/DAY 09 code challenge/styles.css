@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+@import "reset.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans" -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: rgb(37, 37, 42);
+}
+
+.wrapper {
+  background-color: black;
+  width: 315px;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+}
+
+.airpod {
+  background-color: #ffffff;
+  width: 305px;
+  height: 345px;
+  margin: 5px;
+  display: flex;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.airpod_img {
+  width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.airpod__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+
+.airpod_title {
+  font-weight: 600;
+}
+
+.airpod_detail {
+  margin-top: 10px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.airpod_price {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.airpod_stars {
+  color: #febe50;
+  font-size: 12px;
+}
+
+.airpod_stars i:nth-child(5) {
+  color: #d7dfe2;
+}
+.airpod_stars span:nth-child(6) {
+  color: #d7dfe2;
+}
+
+.profile {
+  background-image: url("images/suri.jpg");
+  background-size: 305px;
+  width: 305px;
+  height: 150px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.profile__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  color: white;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.user-detail {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.profile__btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.profile button:nth-child(1) {
+  opacity: 0.8;
+  font-weight: 500;
+  border: none;
+  width: 115px;
+  height: 35px;
+  border-radius: 5px;
+
+  background-color: #6b74ff;
+  color: white;
+}
+.profile button:nth-child(2) {
+  opacity: 0.8;
+  font-weight: 500;
+  border: none;
+  width: 115px;
+  height: 35px;
+  border-radius: 5px;
+
+  background-color: #eaecff;
+  color: #6b74ff;
+}
