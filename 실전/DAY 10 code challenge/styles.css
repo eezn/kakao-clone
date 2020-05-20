@@ -44,6 +44,7 @@ body {
 .title-box__title {
   font-size: 20px;
   font-weight: 700;
+  opacity: 70%;
 }
 
 .login__input {
@@ -119,6 +120,7 @@ body {
   border-radius: 50px;
   color: white;
   font-size: 10px;
+  font-weight: 700;
 }
 .facebook {
   background-color: #3b5998;
