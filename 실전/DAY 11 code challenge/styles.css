@@ -51,6 +51,7 @@ body {
   margin: 30px 27px;
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .header-row__pirtures {
@@ -67,6 +68,7 @@ body {
   height: 45px;
   background-color: antiquewhite;
   border-radius: 10px;
+  cursor: pointer;
 }
 .header-more {
   display: flex;
@@ -92,6 +94,7 @@ body {
   margin-right: 14px;
   padding: 8px 12px;
   border-radius: 13px 13px 13px 0px;
+  cursor: pointer;
 }
 
 /* main-title */
@@ -112,6 +115,7 @@ body {
   color: red;
   background-color: beige;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 /* main-location */
@@ -174,6 +178,7 @@ body {
   font-size: 16px;
   font-weight: 900;
   color: #2d5cff;
+  cursor: pointer;
 }
 
 /* 네비게이션 */
@@ -196,6 +201,7 @@ body {
   opacity: 0.4;
   padding: 0px 17px;
   padding-top: 26px;
+  cursor: pointer;
 }
 .nav__navigation-btn {
   position: absolute;
@@ -205,6 +211,7 @@ body {
   background-color: #2d5cff;
   border-radius: 50%;
   color: white;
+  cursor: pointer;
 }
 .nav__list-column {
   display: flex;
