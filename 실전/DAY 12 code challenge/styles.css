@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: #f9fafc;
+  display: flex;
+  justify-content: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  color: #010d3c;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.phone-shape {
+  margin-top: 50px;
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  background: rgb(241, 242, 246);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* header */
+.header-top {
+  margin: 20px 20px 10px 20px;
+}
+.real-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.real-header .title {
+  font-size: 14px;
+}
+
+/* popular-container */
+.pop-container {
+  margin-top: 15px;
+}
+.pop-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pop-bar .pop-title,
+.other-recipes .other-title {
+  margin: 10px 0px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.pop-bar .pop-view {
+  font-size: 11px;
+  color: red;
+  font-weight: 700;
+}
+
+.pop-btn-container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.pop-btn-container .pop-recipes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  margin: 5px;
+  width: 120px;
+  height: 70px;
+  border-radius: 10px;
+}
+.pop-btn-container .pop-recipes:nth-child(1) {
+  background-image: url("https://t1.daumcdn.net/liveboard/interbiz/724b01edcbeb44dfa3fe10a3dbbda51f.JPG");
+}
+.pop-btn-container .pop-recipes:nth-child(2) {
+  background-image: url("https://miro.medium.com/max/2560/1*2kHAAe4MpPTXMpeIeULegg.jpeg");
+}
+.pop-btn-container .pop-recipes:nth-child(3) {
+  background-image: url("https://rereco.co/wp-content/uploads/2018/02/best_menu09.jpg");
+}
+.pop-btn-container .pop-recipes:nth-child(4) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3o-BEt0OWzS1YhkmpM8x4qyYgzrbsQ8cFQURPrJixagkxU_jZ&usqp=CAU");
+}
+
+/* Other Recipes */
+.other-recipes {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.other-recipes h3,
+h2 {
+  margin: 0px;
+}
+
+.other-recipes .other-recipes__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 13px 0px;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+.other-recipes .recipes-list {
+  padding: 0px;
+}
+.other-recipes__list .recipe-name {
+  font-size: 13px;
+}
+.other-recipes__list .recipe-counts {
+  font-size: 11px;
+}
+.other-recipes__list i {
+  color: red;
+}
+
+/* nav */
+.under-nav {
+  position: absolute;
+  width: 100%;
+  padding: 20px 30px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.under-nav i {
+  font-size: 17px;
+}
+.under-nav i:nth-child(2) {
+  color: red;
+}
