@@ -50,6 +50,9 @@ body {
 .real-header .title {
   font-size: 14px;
 }
+.real-header i {
+  cursor: pointer;
+}
 
 /* popular-container */
 .pop-container {
@@ -71,6 +74,7 @@ body {
   font-size: 11px;
   color: red;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .pop-btn-container {
@@ -90,6 +94,8 @@ body {
   width: 120px;
   height: 70px;
   border-radius: 10px;
+  color: white;
+  cursor: pointer;
 }
 .pop-btn-container .pop-recipes:nth-child(1) {
   background-image: url("https://t1.daumcdn.net/liveboard/interbiz/724b01edcbeb44dfa3fe10a3dbbda51f.JPG");
@@ -122,6 +128,7 @@ h2 {
   margin: 13px 0px;
   padding: 10px 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
 .other-recipes .recipes-list {
   padding: 0px;
@@ -149,6 +156,7 @@ h2 {
 
 .under-nav i {
   font-size: 17px;
+  cursor: pointer;
 }
 .under-nav i:nth-child(2) {
   color: red;
